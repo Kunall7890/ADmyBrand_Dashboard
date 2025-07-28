@@ -1,30 +1,83 @@
-# ADmyBrand
+# ADmyBrand Dashboard
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A modern dashboard application built with Next.js, TypeScript, and Tailwind CSS.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/kunals-projects-3cb1dbf9/v0-ad-my-brand)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/on0fG1Jtw3y)
+## Key Features
 
-## Overview
+- Modular component-based architecture
+- Custom hooks for reusable logic
+- Responsive design with Tailwind CSS
+- Fast performance with Next.js
+- TypeScript for type safety
+- Easy configuration and extensibility
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Getting Started
 
-## Deployment
+### Prerequisites
 
-Your project is live at:
+- Node.js (v16 or higher recommended)
+- pnpm (or npm/yarn)
 
-**[https://vercel.com/kunals-projects-3cb1dbf9/v0-ad-my-brand](https://vercel.com/kunals-projects-3cb1dbf9/v0-ad-my-brand)**
+### Installation
 
-## Build your app
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/ADmyBrand_Dashboard.git
+   cd ADmyBrand_Dashboard
+   ```
 
-Continue building your app on:
+2. **Install dependencies:**
+   ```sh
+   pnpm install
+   # or
+   npm install
+   ```
 
-**[https://v0.dev/chat/projects/on0fG1Jtw3y](https://v0.dev/chat/projects/on0fG1Jtw3y)**
+### Development
 
-## How It Works
+Start the development server:
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+```sh
+pnpm dev
+# or
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view the app.
+
+### Production
+
+Build the app for production:
+
+```sh
+pnpm build
+# or
+npm run build
+```
+
+Start the production server:
+
+```sh
+pnpm start
+# or
+npm start
+```
+
+## Project Structure
+
+- `app/` – Application routes and pages
+- `components/` – Reusable UI components
+- `hooks/` – Custom React hooks
+- `lib/` – Utility libraries and helpers
+- `public/` – Static assets
+- `styles/` – Global and component styles
+
+## Configuration
+
+- `next.config.mjs` – Next.js configuration
+- `tailwind.config.ts` – Tailwind CSS configuration
+- `tsconfig.json` – TypeScript configuration
+
+## License
+
+MIT
